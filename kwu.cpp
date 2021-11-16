@@ -4,11 +4,16 @@
 using namespace std;
 
 int main()
-{	cout<<"do you love KWU?"<<endl;
+{	string answer[10];
+	cout<<"do you love KWU?"<<endl;
+	cin<<answer;
 	string test_string="IloveKWU!";
+	if(answer==yes)
+	{
 	for(int i=0;i<test_string.size();i++
 			{
 				cout<<test_string.at(i)<<endl;
+			}
 			}
 			cout<<endl;
 	return 0;
